@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Harian Mendengarkan Al-Quran</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Agenda Harian Mendengarkan Al-Quran</h1>
+        
+        <div class="target-container">
+            <label for="target">Jumlah Surat yang Akan Didengarkan Hari Ini:</label>
+            <input type="number" id="target" placeholder="Masukkan target surat">
+        </div>
+
+        <h2>Surat yang Telah Didengarkan</h2>
+        <form id="agendaForm">
+            <div class="surat-list">
+                <!-- Surat akan ditambahkan menggunakan JavaScript -->
+            </div>
+            <button type="submit" id="saveBtn">Simpan Progress</button>
+        </form>
+
+        <h2>Progress Hari Ini</h2>
+        <p>Total Surat Didengarkan: <span id="totalSurat">0</span></p>
+        <p>Surat yang Belum Didengarkan: <span id="belumSurat">0</span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
